@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1" />
+		<meta name="Keywords" content="" />
+		<title>欢迎您的到来</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+		<link href="css/style.css" rel='stylesheet' type='text/css' media="all">
+		<link href="css/z.css" rel="stylesheet">
+		<link href="css/login.css" rel="stylesheet" rev="stylesheet" type="text/css" media="all" />
+	</head>
+	<script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
+	</script>
+	<script type="text/javascript">
+		$(function() {
+					/*用户登录信息验证*/
+					$("#username").focus(function() {
+						var username = $(this).val();
+						if (username == '输入账号') {
+							$(this).val('');
+						}
+					});
+					$("#username").focusout(function() {
+						var username = $(this).val();
+						if (username == '') {
+							$(this).val('输入账号');
+						}
+					});
+					$("#stu_password_hide").focus(function() {
+						var username = $(this).val();
+						if (username == '输入密码') {
+							$(this).val('');
+						}
+					});
+					$("#stu_password_hide").focusout(function() {
+						var username = $(this).val();
+						if (username == '') {
+							$(this).val('输入密码');
+						}
+					});
+					$("#stu_code_hide").focus(function() {
+						var username = $(this).val();
+						if (username == '输入验证码') {
+							$(this).val('');
+						}
+					});
+					$("#stu_code_hide").focusout(function() {
+						var username = $(this).val();
+						if (username == '') {
+							$(this).val('输入验证码');
+						}
+					});
+					$(".stu_login_error").Validform({
+						tiptype: function(msg, o, cssctl) {
+							var objtip = $(".stu_error_box");
+							cssctl(objtip, o.type);
+							objtip.text(msg);
+						},
+						ajaxPost: true,
+					});
+	</script>
+	<script type="text/javascript">
+		$(function() {
+			$(".screenbg ul li").each(function() {
+				$(this).css("opacity", "0");
+			});
+			$(".screenbg ul li:first").css("opacity", "1");
+			var index = 0;
+			var t;
+			var li = $(".screenbg ul li");
+			var number = li.size();
+
+			function change(index) {
+				li.css("visibility", "visible");
+				li.eq(index).siblings().animate({
+					opacity: 0
+				}, 3000);
+				li.eq(index).animate({
+					opacity: 1
+				}, 3000);
+			}
+
+			function show() {
+				index = index + 1;
+				if (index <= number - 1) {
+					change(index);
+				} else {
+					index = 0;
+					change(index);
+				}
+			}
+			t = setInterval(show, 2000);
+			//根据窗口宽度生成图片宽度
+			var width = $(window).width();
+			$(".screenbg ul img").css("width", width + "px");
+		});
+	</script>
+	</head>
+
+	<body>
+		<div class="main-top" id="首页">
+			<div class="headder-top">
+				<!-- nav -->
+				<nav>
+					<div id="logo">
+						<h1>
+							<a href="index.php">Cake</a>
+						</h1>
+					</div>
+					<label for="drop" class="toggle">Menu</label>
+					<input type="checkbox" id="drop">
+					<ul class="menu mt-2">
+						<li class="active">
+							<a href="index.php">首页</a>
+						</li>
+						<li class="mx-lg-3 mx-md-2 my-md-0 my-1">
+							<a href="recommend.html">
+								今日份糕点
+							</a>
+						</li>
+						<li class="mx-lg-3 mx-md-2 my-md-0 my-1">
+							<a href="log.html" class="drop-text">登录</a>
+						</li>
+						<li class="mx-lg-3 mx-md-2 my-md-0 my-1">
+							<a href="reg.html" class="drop-text">注册</a>
+						</li>
+						<li>
+							<a href="contact.html">联系我们</a>
+						</li>
+					</ul>
+				</nav>
+		<div id="tab">
+			<ul class="tab_menu">
+				<li class="selected">用户登录</li>
+			</ul>
+			<div class="tab_box">
+				<!-- 用户登录开始 -->
+				<div>
+					<div class="stu_error_box"></div>
+					<form  action="log.php" method="POST" class="stu_login_error">
+						<div id="username">
+							<label>账&nbsp;&nbsp;&nbsp;号：</label>
+							<input type="text" id="username" name="username" placeholder="输入账号" nullmsg="账号不能为空！" datatype="s6-18" errormsg="账号范围在6~18个字符之间！"
+							 sucmsg="账号验证通过！" />
+						</div>
+						<div id="password">
+							<label>密&nbsp;&nbsp;&nbsp;码：</label>
+							<input type="password" id="password" name="password" placeholder="输入密码" nullmsg="密码不能为空！" datatype="*6-16"
+							 errormsg="密码范围在6~16位之间！" sucmsg="密码验证通过！" />
+						</div>
+						<div id="remember">
+							<input type="checkbox" name="remember">
+							<label>记住密码</label>
+						</div>
+						<div id="login">
+							<input type="submit" name="button" id="button" value="登录" style="opacity: 1">
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="screenbg">
+			<ul>
+				<li><a href="javascript:;"><img src="images/3.jpg"></a></li>
+				<li><a href="javascript:;"><img src="images/b3.jpg"></a></li>
+				<li><a href="javascript:;"><img src="images/a1.png"></a></li>
+			</ul>
+		</div>
+	</body>
+</html>

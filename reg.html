@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1" />
+		<meta name="Keywords" content="" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+		<link href="css/style.css" rel='stylesheet' type='text/css' media="all">
+		<link href="css/z.css" rel="stylesheet">
+		<style type="text/css">
+			.container {
+				padding-top: 250px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="main-top" id="首页">
+			<div class="headder-top">
+				<!-- nav -->
+				<nav>
+					<div id="logo">
+						<h1>
+							<a href="index.php">Cake</a>
+						</h1>
+					</div>
+					<label for="drop" class="toggle">Menu</label>
+					<input type="checkbox" id="drop">
+					<ul class="menu mt-2">
+						<li class="active">
+							<a href="index.php">首页</a>
+						</li>
+						<li class="mx-lg-3 mx-md-2 my-md-0 my-1">
+							<a href="recommend.html">
+								今日份糕点
+							</a>
+						</li>
+						<li class="mx-lg-3 mx-md-2 my-md-0 my-1">
+							<a href="log.html" class="drop-text">登录</a>
+						</li>
+						<li class="mx-lg-3 mx-md-2 my-md-0 my-1">
+							<a href="reg.html" class="drop-text">注册</a>
+						</li>
+						<li>
+							<a href="contact.html">联系我们</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+			<div class="container">
+				<div class="row tm-register-row">
+					<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 tm-register-col-l">
+						<form action="reg.php" method="POST">
+							<div class="input-field">
+								<input placeholder="姓名" id="name" name="name" type="text" class="validate">
+							</div>
+							<div class="input-field">
+								<input placeholder="用户名" id="username" name="username" type="text" class="validate">
+							</div>
+							<div class="input-field">
+								<input placeholder="密码" id="password" name="password" type="password" class="validate">
+							</div>
+							<div class="input-field">
+								<input placeholder="确认密码" id="rpassword" name="rpassword" type="password" class="validate">
+							</div>
+							<div class="input-field">
+								<input placeholder="Email" id="email" name="email" type="text" class="validate">
+							</div>
+							<div class="input-field">
+								<input placeholder="手机号" id="phone" name="phone" type="text" class="validate">
+							</div>
+							<div class="input-field">
+								<input placeholder="地址" id="address" name="address" type="text" class="validate">
+							</div>
+
+							<div class="text mt-4">
+								<button type="submit" name="registe">提交</button>
+							</div>
+						</form>
+					</div>
+					<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 tm-register-col-r">
+						<header class="mb-5">
+							<h3 class="mt-0 text-white">Cake</h3>
+							<p class="grey-text">
+								尝在口中 甜在心里
+								专注健康 我们秉承无添加
+								原生态的健康烘焙理念
+								采用传统结合现代的烘焙工艺
+								坚持用最天然、最原始、最简单的 
+								原材料来制作高品质的新一代健康烘焙食品
+							</p>
+							<p class="grey-text">
+								用心烘焙 
+								用“心”制作每一份甜蜜   品味甜蜜生活，感受幸福味道 
+								心得烘焙的蛋糕、用心烘焙的蛋糕 做最健康、最放心的食品 
+								我们始终把健康、营养放第一位
+								坚持用最简单最原生态的食材搭配   
+								传统的手工技艺来制造美味的烘焙食品 
+								希望能带给您不一样的烘焙食品，真诚期待您的品尝
+							</p>
+						</header>
+					</div>
+				</div>
+			</div>
+			<script src="js/jquery-3.2.1.slim.min.js"></script>
+			<script src="js/materialize.min.js"></script>
+			<script>
+				$(document).ready(function() {
+					$('select').formSelect();
+				});
+			</script>
+
+	</body>
+</html>
