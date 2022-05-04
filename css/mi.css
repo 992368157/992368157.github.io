@@ -1,0 +1,613 @@
+#header{
+    width: 100%;
+    height: 40px;
+    background-color: #333333;
+}
+.content{
+    width: 1226px;
+    margin: 0px auto;
+}
+.content_ul{
+    width: 600px;
+    float: left;  
+}
+.content_ul li{
+    float: left;
+    line-height: 42px;
+}
+.content_ul li a{
+    color: #AAA;
+    font-size: 30px;
+}
+.content_ul li span{
+    color: #424242;
+    font-size: 13px;
+    margin: 0px 5px;
+}
+.content_ul li a:hover{
+    color: #fff;
+}
+.content_ul_1{
+    float: right;
+}
+.content_ul_1 li{
+    float: left;
+    line-height: 40px;
+    text-align: center;
+}
+.content_ul_1 li a{
+    color: #AAA;
+    font-size: 13px;
+}
+.content_ul_1 li span{
+    color: #424242;
+    font-size: 13px;
+    margin: 0px 5px;
+}
+.content_ul_1 li a:hover{
+    color: #fff;
+}
+.content_li{
+    width: 100px;
+    margin: 0px auto;
+    text-align: center;
+    background: #424242;
+    color: #aaa;
+    font-size: 13px;
+}
+
+
+
+#content_top{
+    width: 100%;
+}
+.content_meun{
+    width: 1226px;
+    height: 90px;
+    background-color: pink;
+    margin: 10px auto;
+}
+.content_pic{
+    width: 1226px;
+    height: 400px;
+    margin: 0 auto;
+    background:url(../images/mi.jpg)
+}
+.content_shop{
+    width: 1226px;
+    height: 170px;
+    margin-top: 10px;
+    margin: 10px auto;
+}
+.content_shop1{
+    width: 248px;
+    height: 170px;
+    background-color: #cccccc;
+    float: left;
+    margin-right: 10px;
+}
+.content_shop2{
+    width: 316px;
+    height: 170px;
+    background:url(../images/midAD1.jpg);
+    background-color: #cccccc;
+    float: left;
+    margin-right: 10px;
+}
+.content_shop3{
+    width: 316px;
+    height: 170px;
+    background:url(../images/midAD2.jpg);
+    background-color: pink;
+    float: left;
+    margin-right: 10px;
+}
+.content_shop4{
+    width: 316px;
+    height: 170px;
+    background:url(../images/midAD3.jpg);
+    background-color: #cccccc;
+    float: left;
+}
+.content_mi{
+    width: 1226px;
+    height: 50px;
+    margin: 10px auto;
+    line-height: 50px;
+}
+.content_mi_shop{
+    width: 1226px;
+    margin: 0 auto;
+    height: 380px;
+}
+.content_mi_shop div{
+    width: 235px;
+    height: 340px;
+    /* background-color: #fafafa; */
+    background: #cccccc;
+}
+.content_mi_shop1{
+    float: left;
+    margin-right: 10px;
+}
+.content_mi_shop2{
+    float: left;
+    margin-right: 10px;
+}
+.content_mi_shop3{
+    float: left;
+    margin-right: 10px;
+}
+.content_mi_shop4{
+    float: left;
+    margin-right: 10px;
+}
+.content_mi_shop5{
+    float: left;
+}
+
+
+.content_mi_pic{
+    width: 1226px;
+    height: 119px;
+    background: url(../images/longAD1.jpg);
+    margin: 10px auto;
+}
+
+
+
+
+
+#content_bottom{
+    width: 100%;
+    background-color: #f5f5f5;
+}
+.content_bottom_phon{
+    width: 1226px;
+    margin: 10px auto;
+}
+.content_bottom_meun{
+    width: 1226px;
+    height: 50px;
+    line-height: 50px;
+    background-color: #f5f5f5;
+    margin-bottom: 10px;
+}
+.content_bottom_shop{
+    width: 1226px;
+    height: 614px;
+    /* background-color: #cccccc; */
+}
+.content_bottom_shop1{
+    width: 234px;
+    height: 614px;
+    background: url(../images/buy/手机AD.jpg);
+    float: left;
+    margin-right: 10px;
+}
+.content_bottom_shop2{
+    width: 982px;
+    height: 614px;
+    float: left;
+    /* background-color: red; */
+}
+.content_bottom_shop_top{
+    width: 982px;
+    height: 302px;
+    margin-bottom: 10px;
+    background-color: #fff;
+}
+.content_bottom_shop_top div{
+    width: 238px;
+    height: 302px;
+    background-color: yellow;
+}
+.content_bottom_shop_top1{
+    float: left;
+    margin-right: 10px;
+}
+.content_bottom_shop_top2{
+    float: left;
+    margin-right: 10px;
+}
+.content_bottom_shop_top3{
+    float: left;
+    margin-right: 10px;
+}
+.content_bottom_shop_top4{
+    float: left;
+}
+
+/* 家电 */
+
+.content_bottom_JDmeun{
+    width: 1226px;
+    height: 50px;
+    line-height: 50px;
+    margin: 10px auto;
+}
+.content_bottom_JDshop1{
+    width: 1226px;
+    margin: 10px auto;
+}
+.content_bottom_JDshop1 div{
+    width: 237px; 
+    height: 300px;
+    float: left;
+}
+.content_bottom_JDshop_1{
+    margin-right: 10px;
+    background: url(../images/buy/家电AD1.jpg);
+}
+.content_bottom_JDshop_2{
+    margin-right: 10px;
+    background: #fff;
+}
+.content_bottom_JDshop_3{
+    margin-right: 10px;
+    background: #fff;
+}
+.content_bottom_JDshop_4{
+    margin-right: 10px;
+    background: #fff;
+}
+.content_bottom_JDshop_5{
+    background: #fff;
+}
+
+
+
+
+.content_bottom_JDshop2{
+    width: 1226px;
+    /* height: 400px; 
+    background: pink; */
+    margin: 10px auto;
+}
+.content_bottom_JDshop2 div{
+    float: left;
+}
+.content_bottom_JDshop_6{
+    width: 237px;
+    height: 300px;
+    margin-right: 10px;
+    background: url(../images/buy/家电AD2.jpg);
+}
+.content_bottom_JDshop_7{
+    width: 237px;
+    height: 300px;
+    margin-right: 10px;
+    background: #fff;
+}
+.content_bottom_JDshop_8{
+    width: 237px;
+    height: 300px;
+    margin-right: 10px;
+    background: #fff;
+}
+.content_bottom_JDshop_9{
+    width: 237px;
+    height: 300px;
+    margin-right: 10px;
+    background: #fff;
+}
+.content_bottom_JDshop_10{
+    width: 237px;
+    height: 300px;
+    /* background: #fff; */
+}
+.content_bottom_JDshop_10_top{
+   width: 237px;
+   height: 145px;
+   background: #fff;
+}
+.content_bottom_JDshop_10_bottom{
+    margin-top: 10px;
+    width: 237px;
+    height: 145px;
+    background: #fff;
+}
+
+
+
+.content_bottom_JDpic{
+    margin: 10px auto;
+    width: 1226px;
+    height: 119px;
+    background: url(../images/longAD3.jpg);
+}
+
+
+
+/* 家电结束 */
+
+
+
+/* 智能 */
+
+
+.content_bottom_ZNmeun{
+    width: 1226px;
+    height: 50px;
+    line-height: 50px;
+    margin: 10px auto;
+}
+.content_bottom_ZNshop1{
+    width: 1226px;
+    margin: 10px auto;
+}
+.content_bottom_ZNshop1 div{
+    width: 237px; 
+    height: 300px;
+    float: left;
+}
+.content_bottom_ZNshop_1{
+    margin-right: 10px;
+    background: url(../images/buy/智能AD1.jpg);
+}
+.content_bottom_ZNshop_2{
+    margin-right: 10px;
+    background: #fff;
+}
+.content_bottom_ZNshop_3{
+    margin-right: 10px;
+    background: #fff;
+}
+.content_bottom_ZNshop_4{
+    margin-right: 10px;
+    background: #fff;
+}
+.content_bottom_ZNshop_5{
+    background: #fff;
+}
+
+
+
+
+.content_bottom_ZNshop2{
+    width: 1226px;
+    /* height: 400px; 
+    background: pink; */
+    margin: 10px auto;
+}
+.content_bottom_ZNshop2 div{
+    float: left;
+}
+.content_bottom_ZNshop_6{
+    width: 237px;
+    height: 300px;
+    margin-right: 10px;
+    background: url(../images/buy/智能AD2.jpg);
+}
+.content_bottom_ZNshop_7{
+    width: 237px;
+    height: 300px;
+    margin-right: 10px;
+    background: #fff;
+}
+.content_bottom_ZNshop_8{
+    width: 237px;
+    height: 300px;
+    margin-right: 10px;
+    background: #fff;
+}
+.content_bottom_ZNshop_9{
+    width: 237px;
+    height: 300px;
+    margin-right: 10px;
+    background: #fff;
+}
+.content_bottom_ZNshop_10{
+    width: 237px;
+    height: 300px;
+    /* background: #fff; */
+}
+.content_bottom_ZNshop_10_top{
+   width: 237px;
+   height: 145px;
+   background: #fff;
+}
+.content_bottom_ZNshop_10_bottom{
+    margin-top: 10px;
+    width: 237px;
+    height: 145px;
+    background: #fff;
+}
+
+
+
+.content_bottom_ZNpic{
+    margin: 10px auto;
+    width: 1226px;
+    height: 119px;
+    background: url(../images/longAD4.jpg);
+}
+
+/* 智能结束 */
+
+/* 为你推荐 */
+
+.content_bottom_TJmeun{
+    width: 1226px;
+    height: 50px;
+    line-height: 50px;
+    margin: 10px auto;
+    background: #fff;
+}
+.content_bottom_TJshop{
+    width: 1226px;
+    margin: 10px auto;
+}
+.content_bottom_TJshop div{
+    width: 237px;
+    height: 300px;
+    float: left;
+}
+.content_bottom_TJshop1{
+    background: #fff;
+    margin-right: 10px;
+}
+.content_bottom_TJshop2{
+    background: #fff;
+    margin-right: 10px;
+}
+.content_bottom_TJshop3{
+    background: #fff;
+    margin-right: 10px;
+}
+.content_bottom_TJshop4{
+    background: #fff;
+    margin-right: 10px;
+}
+.content_bottom_TJshop5{
+    background: #fff;
+}
+/* 为你推荐结束 */
+
+/* 热评产品 */
+.content_bottom_RPmeun{
+    width: 1226px;
+    height: 50px;
+    line-height: 50px;
+    margin: 10px auto;
+    background: #fff;
+}
+.content_bottom_RPshop{
+    width: 1226px;
+    margin: 10px auto;
+}
+.content_bottom_RPshop div{
+    width: 299px;
+    height: 300px;
+    float: left;
+}
+.content_bottom_RPshop1{
+    background: #fff;
+    margin-right: 10px;
+}
+.content_bottom_RPshop2{
+    background: #fff;
+    margin-right: 10px;
+}
+.content_bottom_RPshop3{
+    background: #fff;
+    margin-right: 10px;
+}
+.content_bottom_RPshop4{
+    background: #fff;
+}
+
+/* 热评产品结束 */
+
+
+/* 内容 */
+
+
+.content_bottom_NRmeun{
+    width: 1226px;
+    height: 50px;
+    line-height: 50px;
+    margin: 10px auto;
+    background: #fff;
+}
+.content_bottom_NRshop{
+    width: 1226px;
+    margin: 10px auto;
+}
+.content_bottom_NRshop div{
+    width: 299px;
+    height: 300px;
+    float: left;
+}
+.content_bottom_NRshop1{
+    border-top: 2PX solid #FFAC13;
+    background: #fff;
+    margin-right: 10px;
+}
+.content_bottom_NRshop2{
+    border-top: 2PX solid #83c44e;
+    background: #fff;
+    margin-right: 10px;
+}
+.content_bottom_NRshop3{
+    border-top: 2PX solid red;
+    background: #fff;
+    margin-right: 10px;
+}
+.content_bottom_NRshop4{
+    border-top: 2PX solid #2196f3;
+    background: #fff;
+}
+
+
+/* 内容结束 */
+
+/* 视频 */
+
+
+.content_bottom_SPmeun{
+    width: 1226px;
+    height: 50px;
+    line-height: 50px;
+    margin: 10px auto;
+    background: #fff;
+}
+.content_bottom_SPshop{
+    width: 1226px;
+    margin: 10px auto;
+}
+.content_bottom_SPshop div{
+    width: 299px;
+    height: 285px;
+    float: left;
+}
+.content_bottom_SPshop1{
+    background: #fff;
+    margin-right: 10px;
+}
+.content_bottom_SPshop2{
+    background: #fff;
+    margin-right: 10px;
+}
+.content_bottom_SPshop3{
+    background: #fff;
+    margin-right: 10px;
+}
+.content_bottom_SPshop4{
+    background: #fff;
+}
+
+
+/* 视频结束 */
+
+
+
+
+.content_bottom_shop_bottom{
+    width: 980px;
+    height: 302px;
+    margin-bottom: 10px;
+    background-color: #fff;
+}
+
+
+
+
+.content_bottom_pic{
+    width: 1226px;
+    height: 119px;
+    background: url(../images/longAD2.jpg);
+    margin: 10px auto;
+}
+
+
+
+#footer_top{
+    width: 100%;
+    height: 300px;
+}
+#footer_bottom{
+    width: 100%;
+    height: 300px;
+    background-color: #cccccc;
+}

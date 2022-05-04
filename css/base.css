@@ -1,0 +1,15 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+}
+.clear{
+    clear: both;
+}
+ul{
+    list-style: none;
+}
